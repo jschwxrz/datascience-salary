@@ -4,7 +4,7 @@ import streamlit as st
 
 def show_highest_salaries_by_job_title(df):
     highest_salaries = df.groupby('job_title')['salary_in_usd'].mean().sort_values(ascending=False).head(10)
-    plt.figure(figsize=(12, 6))
+    plt.figure(figsize=(10, 6))
     sns.barplot(x=highest_salaries.values, y=highest_salaries.index)
     plt.title('Top 10 Highest Paying Data Science Jobs')
     plt.xlabel('Average Salary (USD)')
