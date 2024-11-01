@@ -2,6 +2,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import streamlit as st
 
+
 def show_salary_distribution_by_company_size(df):
     plt.figure(figsize=(10, 6))
     sns.boxplot(x='company_size', y='salary_in_usd', data=df)
