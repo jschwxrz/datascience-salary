@@ -56,7 +56,7 @@ def main():
     elif option == "Remote Ratio by Work Year":
         st.header("Remote Ratio by Work Year")
         show_remote_ratio_by_work_year(df)
-        st.write("**Figure 6** Bar charts illustrating the proportion of remote, hybrid, and on-site work arrangements. ")
+        st.write("**Figure 6:** Bar charts illustrating the proportion of remote, hybrid, and on-site work arrangements. ")
     elif option == "Salary Distribution by Company Size":
         st.header("Salary Distribution by Company Size")
         show_salary_distribution_by_company_size(df)
