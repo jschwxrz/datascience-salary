@@ -16,7 +16,7 @@ def streamlit_setup():
 
 def main():
     streamlit_setup()
-    df = pd.read_csv('DataScience_salaries_2024.csv')
+    df = pd.read_csv('DataScienceSalaries2024.csv')
 
     with st.sidebar:
         st.title("Data Science Salary Analysis")
