@@ -10,17 +10,8 @@ This project analyzes the Data Science Salaries dataset and aims to explore the 
 
 ## Dataset
 
-The dataset "Data Science Salaries 2024" from Kaggle contains 14,838 rows and 11 columns,
+The dataset ["Data Science Salaries 2024"](https://www.kaggle.com/datasets/yusufdelikkaya/datascience-salaries-2024/data) from Kaggle contains 14,838 rows and 11 columns,
 providing data for analyzing trends and factors affecting data science salaries.
-https://www.kaggle.com/datasets/yusufdelikkaya/datascience-salaries-2024/data
-
-## Research Questions
-
-- How do experience levels impact data science salaries?
-- Which job titles relate to the highest salary?
-- How have the salaries in data science evolved from 2020 - 2024?
-- How has the remote ration changed between 2020 - 2024?
-- What is the relationship between company size and compensation?
 
 ## Setting it up
 
